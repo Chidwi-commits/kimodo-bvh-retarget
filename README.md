@@ -79,6 +79,10 @@ kimodo-bvh-retarget/
 │                      Adds the package directory to sys.path so sibling
 │                      modules resolve whether run as a script or with -m.
 │
+├── run.bat            One-click Windows launcher.
+│                      Double-click to open the GUI without a terminal.
+│                      If Python is not found the console window stays open.
+│
 └── requirements.txt   numpy>=1.24, scipy>=1.10
 ```
 
@@ -88,6 +92,10 @@ kimodo-bvh-retarget/
 
 ### GUI
 
+**Windows — one click:**
+Double-click `run.bat`.
+
+**Terminal:**
 ```bash
 python3 __main__.py
 ```
