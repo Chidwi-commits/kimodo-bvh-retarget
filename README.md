@@ -8,7 +8,7 @@ character in Blender, Maya, MotionBuilder, or similar DCC tools.
 
 ## Purpose
 
-[Kimodo](https://github.com/jtydhr88/ComfyUI-Kimodo) generates human
+[Kimodo](https://github.com/nv-tlabs/kimodo) generates human
 animation via the SOMA body model and exports it as BVH files.  Mixamo
 characters use a different joint-naming convention (`mixamorig:Hips`,
 `mixamorig:LeftArm`, etc.).  This tool bridges the gap by:
